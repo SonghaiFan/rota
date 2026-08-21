@@ -1,11 +1,15 @@
-# Rota 桌面版
+# Rota
 
-Rota 是为独立教师、私教和音乐教师设计的排课与学生管理桌面应用。
+为独立教师、私教和音乐教师设计的排课、学生与收支管理桌面应用。
+
+![Rota 真实排课界面](https://rota-two-psi.vercel.app/rota-app.png)
+
+课程、学生档案和收款记录都在一个清晰的工作台里。不登录也能使用，注册账号后可以同步课程信息。
 
 ## 下载
 
 - [下载最新 macOS 版本](https://github.com/SonghaiFan/rota/releases/latest)
-- [访问 Rota 官网](https://rota-two-psi.vercel.app)
+- [查看完整产品页面](https://rota-two-psi.vercel.app)
 
 当前版本支持 Apple Silicon Mac（M1、M2、M3、M4 及后续芯片），最低系统版本为 macOS 12。
 
