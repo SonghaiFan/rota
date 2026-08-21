@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Rota 是为独立教师、私教与音乐教师设计的排课、学生和收支管理应用。网页版可直接使用，也可下载 macOS 桌面版。" />
+    <meta name="theme-color" content="#f4f5f8" />
+    <title>Rota | 把教学日常放在一个地方</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./rota-app.png" as="image" type="image/png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-nav shell">
+      <a class="brand" href="#top" aria-label="Rota 首页">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>Rota</span>
+      </a>
+      <nav aria-label="主要导航">
+        <a href="#features">功能</a>
+        <a href="#cloud">云同步</a>
+        <a href="https://github.com/SonghaiFan/rota/releases/latest">下载 macOS</a>
+        <a class="nav-download" href="https://rota-two-psi.vercel.app">打开网页版</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">为独立教师设计</p>
+          <h1>排课、学生、收支，<br />都在一个地方。</h1>
+          <p class="lede">一款专注教学日常的排课应用。浏览器直接打开，也可下载 Mac 版；注册账号即可同步课程信息。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="https://rota-two-psi.vercel.app">打开网页版</a>
+            <a class="text-link" href="https://github.com/SonghaiFan/rota/releases/latest">下载 macOS <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <figure class="product-shot hero-shot reveal delay-one">
+          <img src="./rota-app.png" width="1320" height="828" alt="Rota 真实排课界面，显示一周日期、当天课程和课程概览" fetchpriority="high" />
+        </figure>
+      </section>
+
+      <section class="fact-strip shell" aria-label="产品信息">
+        <div>
+          <strong>Apple Silicon</strong>
+          <span>支持 M 系列 Mac</span>
+        </div>
+        <div>
+          <strong>本地优先</strong>
+          <span>离线也能管理课程</span>
+        </div>
+        <div>
+          <strong>账号同步</strong>
+          <span>课程信息安全上云</span>
+        </div>
+      </section>
+
+      <section class="students-section shell" id="features">
+        <div class="section-copy">
+          <h2>不只看日历，也看见每位学生。</h2>
+          <p>学生档案、联系方式、下一节课和待收款保持在同一个视图里。</p>
+        </div>
+        <figure class="product-shot students-shot">
+          <img src="./rota-students.png" width="1320" height="828" alt="Rota 真实学生管理界面，显示学生状态、联系方式、下一节课和余额" loading="lazy" />
+        </figure>
+        <div class="feature-notes" aria-label="学生管理功能">
+          <article>
+            <h3>快速找到学生</h3>
+            <p>按状态筛选，或直接搜索姓名、科目和电话。</p>
+          </article>
+          <article>
+            <h3>课程与欠费同屏</h3>
+            <p>下一次安排和待收金额不用在多个表格间查找。</p>
+          </article>
+          <article>
+            <h3>适合不同教学类型</h3>
+            <p>音乐、健身、语言与一对一辅导都能使用。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cloud-section shell" id="cloud">
+        <div class="cloud-copy">
+          <h2>本地保存，需要时再同步。</h2>
+          <p>不登录也能使用。注册 Rota 账号后，课程信息可在设备间同步，同时保留导入和导出备份。</p>
+          <div class="cloud-points">
+            <span>本地自动保存</span>
+            <span>Supabase 云端同步</span>
+            <span>JSON 导入与导出</span>
+          </div>
+        </div>
+        <figure class="product-shot cloud-shot">
+          <img src="./rota-cloud.png" width="1320" height="828" alt="Rota 真实设置界面，显示云端登录、课程价格和本地备份功能" loading="lazy" />
+        </figure>
+      </section>
+
+      <section class="download-section shell" id="download">
+        <div>
+          <h2>今天就把课程整理好。</h2>
+          <p>适用于 Apple Silicon Mac，系统要求 macOS 12 或更高版本。</p>
+        </div>
+        <div class="download-actions">
+          <a class="button primary" href="https://rota-two-psi.vercel.app">打开网页版</a>
+          <a class="button secondary" href="https://github.com/SonghaiFan/rota/releases/latest">下载 macOS</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="shell">
+      <span>© 2026 Rota</span>
+      <span>为专注教学的人设计</span>
+    </footer>
+  </body>
+</html>
