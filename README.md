@@ -16,7 +16,7 @@
 
 ## 安装
 
-1. 在 Releases 页面下载 `Rota-0.1.0-arm64.dmg`。
+1. 在 Releases 页面下载最新的 `Rota-0.1.1-arm64.dmg`。
 2. 打开 DMG，把 Rota 拖入“应用程序”文件夹。
 3. 当前测试版尚未使用 Apple Developer 证书签名。如果 macOS 阻止首次打开，请在“系统设置 → 隐私与安全性”中选择“仍要打开”。
 
