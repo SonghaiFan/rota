@@ -1,0 +1,26 @@
+# Rota 桌面版
+
+Rota 是为独立教师、私教和音乐教师设计的排课与学生管理桌面应用。
+
+## 下载
+
+- [下载最新 macOS 版本](https://github.com/SonghaiFan/rota/releases/latest)
+- [访问 Rota 官网](https://rota-two-psi.vercel.app)
+
+当前版本支持 Apple Silicon Mac（M1、M2、M3、M4 及后续芯片），最低系统版本为 macOS 12。
+
+## 安装
+
+1. 在 Releases 页面下载 `Rota-0.1.0-arm64.dmg`。
+2. 打开 DMG，把 Rota 拖入“应用程序”文件夹。
+3. 当前测试版尚未使用 Apple Developer 证书签名。如果 macOS 阻止首次打开，请在“系统设置 → 隐私与安全性”中选择“仍要打开”。
+
+## 云同步
+
+Rota 支持注册账号并同步课程信息。账号和云端课程数据由 Rota 的 Supabase 项目保存。
+
+## 文件校验
+
+SHA-256 校验值见 [CHECKSUMS.txt](./CHECKSUMS.txt)。
+
+> 此仓库仅用于分发 Rota 桌面版，不包含应用源代码。
